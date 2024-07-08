@@ -4,11 +4,10 @@ public class Main {
 //        int b;
 //        int sum;
 
-        for (int a = 1; a <= 12; a++) {
-            for (int b = 1; b <= 12; b++) ;
-//            sum = a * b;
+        for (int i = 1; i <= 12; i++) {
+            for (int j = 1; j <= 12; j++) 
             {
-                System.out.print((a * b) + "\t");
+                System.out.print((i * j) + "\t");
             }
             System.out.println();
         }
